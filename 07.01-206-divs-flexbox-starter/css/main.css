@@ -109,12 +109,52 @@ body {
   background-color: #000000;
 }
 
+header,
+footer {
+  background-color: #000000;
+  height: 80px;
+  width: 100%;
+
+}
+
+main {
+  background-color: #000000;
+  height: 250px;
+  width: 100%;
+}
+
+header,
+footer,
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #999999;
+}
+
+header,
+footer {
+    color: #86c232;
+
+}
+
+em {
+    color: #f16059;
+}
+
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 700;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+
+
 }
 
 .div-1, .div-2, .div-3 {
@@ -129,14 +169,16 @@ body {
   background-color: #000000;
   height: 300px;
   padding: 20px;
+  
+
   /*
   padding: 20px;
   border: 5px solid #999999;*/
 }
 
 .div-2 {
-    border-left:5px solid #999999;
-    border-right: 5px solid #999999;
+    border-left:5px solid #61892f;
+    border-right: 5px solid #61892f;
 }
 
 
